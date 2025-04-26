@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryFragment">
+
+
+    <TextView
+        android:id="@+id/history_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/history_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/history_steps_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_steps_taken_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_yesterday"/>
+
+    <TextView
+        android:id="@+id/history_steps_yesterday_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_steps_yesterday"
+        app:layout_constraintTop_toBottomOf="@+id/history_yesterday" />
+
+    <TextView
+        android:id="@+id/history_sedentary_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_sedentary_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_steps_yesterday" />
+
+
+    <TextView
+        android:id="@+id/history_sedentary_yesterday_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_sedentary_yesterday"
+        app:layout_constraintTop_toBottomOf="@+id/history_steps_yesterday" />
+
+
+    <TextView
+        android:id="@+id/history_walking_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_walking_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_sedentary_yesterday" />
+
+
+    <TextView
+        android:id="@+id/history_walking_yesterday_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_walking_yesterday"
+        app:layout_constraintTop_toBottomOf="@+id/history_sedentary_yesterday" />
+
+    <TextView
+        android:id="@+id/history_running_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_running_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_walking_yesterday" />
+
+    <TextView
+        android:id="@+id/history_running_yesterday_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_running_yesterday"
+        app:layout_constraintTop_toBottomOf="@+id/history_walking_yesterday" />
+
+    <TextView
+        android:id="@+id/history_cycling_yesterday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_cycling_yesterday"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_running_yesterday" />
+
+    <TextView
+        android:id="@+id/history_cycling_yesterday_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_cycling_yesterday"
+        app:layout_constraintTop_toBottomOf="@+id/history_running_yesterday" />
+
+    <TextView
+        android:id="@+id/history_recap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/history_seven_day"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_cycling_yesterday" />
+
+    <TextView
+        android:id="@+id/history_steps_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_steps_taken_week"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_recap" />
+
+    <TextView
+        android:id="@+id/history_steps_week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_steps_week"
+        app:layout_constraintTop_toBottomOf="@+id/history_recap" />
+
+    <TextView
+        android:id="@+id/history_sedentary_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_sedentary_week"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_steps_week" />
+
+
+    <TextView
+        android:id="@+id/history_sedentary_week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_sedentary_week"
+        app:layout_constraintTop_toBottomOf="@+id/history_steps_week" />
+
+
+    <TextView
+        android:id="@+id/history_walking_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_walking_week"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_sedentary_week" />
+
+
+    <TextView
+        android:id="@+id/history_walking_week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_walking_week"
+        app:layout_constraintTop_toBottomOf="@+id/history_sedentary_week" />
+
+    <TextView
+        android:id="@+id/history_running_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_running_week"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_walking_week" />
+
+    <TextView
+        android:id="@+id/history_running_week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_running_week"
+        app:layout_constraintTop_toBottomOf="@+id/history_walking_week" />
+
+    <TextView
+        android:id="@+id/history_cycling_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/history_time_cycling_week"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/history_running_week" />
+
+    <TextView
+        android:id="@+id/history_cycling_week_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/history_cycling_week"
+        app:layout_constraintTop_toBottomOf="@+id/history_running_week" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

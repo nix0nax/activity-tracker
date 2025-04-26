@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        app:key="enable_service"
+        app:title="@string/enable_service" />
+
+    <EditTextPreference
+        app:key="step_goal"
+        app:title="@string/set_step_goal"
+        app:useSimpleSummaryProvider="true"
+        android:inputType="number"/>
+
+    <EditTextPreference
+        app:key="notification_time"
+        app:title="@string/notification_time"
+        app:useSimpleSummaryProvider="true"
+        android:inputType="number"/>
+
+    <Preference
+        app:title="Delete data"
+        app:key="delete_data"
+        app:summary="Delete all historical data"
+        />
+
+<!--    <Preference-->
+<!--        android:key="delete_data"-->
+<!--        android:layout="@layout/delete_data" />-->
+
+
+
+</PreferenceScreen>

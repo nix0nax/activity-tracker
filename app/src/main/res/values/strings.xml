@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">ClassProject2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Class Project 2</string>
+    <string name="nav_header_subtitle">Pls rate good :3</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Menu titles -->
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Dashboard text -->
+    <string name="dashboard_step_goal">Daily step goal: </string>
+    <string name="dashboard_steps_taken">Steps taken today: </string>
+    <string name="dashboard_time_running">Time spent running today</string>
+    <string name="dashboard_time_cycling">Time spent cycling today</string>
+    <string name="dashboard_time_walking">Time spent walking today</string>
+    <string name="dashboard_time_sedentary">Time spent being sedentary today</string>
+    <string name="dashboard_intensity">Intensity: </string>
+
+    <!-- History text -->
+    <string name="history_yesterday">Recap of yesterday</string>
+    <string name="history_steps_taken_yesterday">Steps taken: </string>
+    <string name="history_time_sedentary_yesterday">Time spent sedentary: </string>
+    <string name="history_time_running_yesterday">Time spent running: </string>
+    <string name="history_time_cycling_yesterday">Time spent cycling: </string>
+    <string name="history_time_walking_yesterday">Time spent walking: </string>
+    <string name="history_seven_day">Recap of last 7 days </string>
+    <string name="history_steps_taken_week">Average daily steps: </string>
+    <string name="history_time_sedentary_week">Average time spent sedentary: </string>
+    <string name="history_time_running_week">Average time spent running: </string>
+    <string name="history_time_cycling_week">Average time spent cycling: </string>
+    <string name="history_time_walking_week">Average time spent walking: </string>
+
+    <!-- Messages Preferences -->
+    <string name="enable_service">Enable sensing service</string>
+    <string name="set_step_goal">Daily step goal</string>
+    <string name="notification_time">Notification time</string>
+    <string name="delete_data">Delete all data</string>,
+
+    <string name="access_activity_label">Access activity</string>
+
+</resources>
